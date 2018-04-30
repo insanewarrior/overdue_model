@@ -1,0 +1,18 @@
+## Invoices ##
+
+* created_at (when invoice was created in the system)
+* due (the last date day invoice should be paid)
+* last_payment_date (actual invoces payment date)
+* total (invoice sum)
+* paid (sum that is already paid by this invoice)
+* source_system (how invoices extracted)
+
+## Customers ##
+
+* created_at (first time customer appeared in the system)
+* score (automatically calculated by system customer score, lower -- better)
+
+
+Your task is to conduct exploratory data analysis and build a model that will predict whether the invoice will be paid in time or will be overdue. In case of overdue, your model/approach should provide the info when the invoice should be paid. It can be either regression or classification (with periods chosen up to you).
+
+Good luck!
